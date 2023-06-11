@@ -1,0 +1,10 @@
+build:
+  gpu: true
+  system_packages:
+    - "ffmpeg"
+  python_version: "3.9"
+  python_packages:
+    # - "torch>=2.0.0+cu116"
+    - "audiocraft"
+
+predict: "predict.py:Predictor"
